@@ -1,0 +1,289 @@
+{
+  "id": "37993dcc-36e3-4a55-9fd9-454206193a22",
+  "name": "moveTiagoIntent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "movement_direction",
+          "dataType": "@movement_direction",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$movement_direction",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "hello"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you go near the ",
+          "userDefined": false
+        },
+        {
+          "text": "fridge",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "28f46596-9980-479d-9bc4-24d2c568fb85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please check the ",
+          "userDefined": false
+        },
+        {
+          "text": "fridge",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "0d911f02-cf8a-487b-b4d6-021074c45cee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please attend the ",
+          "userDefined": false
+        },
+        {
+          "text": "table number four",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "87ebdc0d-1032-4406-ba4d-32f8ce868f92",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please attend the ",
+          "userDefined": false
+        },
+        {
+          "text": "table number 4",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "3e403d2e-3542-4603-a7d4-4d64b606e623",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please go near the ",
+          "userDefined": false
+        },
+        {
+          "text": "fridge",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "31096ec7-c4af-4373-b5c5-977e2a56c320",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ok ",
+          "userDefined": false
+        },
+        {
+          "text": "stop",
+          "userDefined": false,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "54ced98e-4ea5-4bb8-920e-1c2df6601e68",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please go ",
+          "userDefined": false
+        },
+        {
+          "text": "reverse",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "67a28f26-8fd1-4713-84aa-ed4ba57a7847",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please turn ",
+          "userDefined": false
+        },
+        {
+          "text": "right",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "06b927d6-9e6c-42bb-b9a3-cff4aba3cb2a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go ",
+          "userDefined": false
+        },
+        {
+          "text": "straight",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "2f890644-e8f3-45db-bb5e-7f28ba16da87",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "please ",
+          "userDefined": false
+        },
+        {
+          "text": "stop",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "d487dc89-c48b-4480-94f1-08e202991267",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "turn ",
+          "userDefined": false
+        },
+        {
+          "text": "right",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "3119203a-87d7-4405-949f-897247e11c9b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go ",
+          "userDefined": false
+        },
+        {
+          "text": "Left",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "d015cbfc-6ceb-4d48-85c5-783de708d712",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "move ",
+          "userDefined": false
+        },
+        {
+          "text": "forward",
+          "userDefined": true,
+          "alias": "movement_direction",
+          "meta": "@movement_direction"
+        }
+      ],
+      "count": 0,
+      "id": "4f8f8ce1-ff2c-4871-87f1-0e0536970abe",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
