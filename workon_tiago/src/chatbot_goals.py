@@ -14,7 +14,7 @@ from actionlib_msgs.msg import *
 from geometry_msgs.msg import Point
 
 # Use the application default credentials
-cred = credentials.Certificate("private_key/rosteleop-firebase-adminsdk-x6mz9-da9bfa8104.json")
+cred = credentials.Certificate("private_key/your-private-key-downloaded-from-firebase-firestore.json")
 firebase_admin.initialize_app(cred, {
   'projectId': "rosteleop",
 })
