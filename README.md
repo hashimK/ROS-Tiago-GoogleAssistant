@@ -1,5 +1,5 @@
 # ROS-Tiago-GoogleAssistant
-ROS implementation of Tiago robot which is given commands through Google Assistant. Video:  [Video](https://drive.google.com/open?id=1k7whTycOVPBKMABxygXKOvkiNlyciKh5)
+ROS implementation of Tiago robot which is given commands through Google Assistant. [Video](https://drive.google.com/open?id=1k7whTycOVPBKMABxygXKOvkiNlyciKh5)
 
 Dialogflow (a Natural Language Understanding platform) is used to design and integrate the user's conversation into Goggle Assistant. Firebase Firestore DB is used which acts as a communication channel between the Tiago robot and Google Assistant. 
 And obviously ROS is used to implement autonomus navigation algorithms on Tiago Robot in order to reach the goal location asked by the user.
